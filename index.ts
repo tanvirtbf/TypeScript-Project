@@ -1,5 +1,6 @@
-console.log("I am Tanvir");
+//@ts-ignore
 
-let num:number = 5
-num = 10
-console.log(num)
+function sum(a:number,b:number):number{
+  return a+b;
+}
+console.log(sum(1,2))

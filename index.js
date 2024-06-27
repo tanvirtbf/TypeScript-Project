@@ -1,4 +1,4 @@
-console.log("I am Tanvir");
-var num = 5;
-num = 10;
-console.log(num);
+function sum(a, b) {
+    return a + b;
+}
+console.log(sum(1, 2));
