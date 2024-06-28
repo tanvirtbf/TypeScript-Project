@@ -9,4 +9,4 @@ function hello(a:string,b:number):string{
   if(b>20) return a;
   return "Not Match";
 }
-console.log(hello("Hello World",12))
+console.log(hello("Hello World",12));
