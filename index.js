@@ -1,4 +1,7 @@
-function sum(a, b) {
-    return a + b;
-}
-console.log(sum(1, 2));
+//@ts-ignore
+var book = {
+    name: 'Tanvir Ahmed',
+    price: 1200,
+    size: 45,
+};
+console.log(book);
