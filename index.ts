@@ -25,6 +25,7 @@
 
 
 
+
 // Interfaces
 // interface holo kono object er shape 
 
@@ -156,8 +157,52 @@
 
 
 
+// Unions
+
+// type ID = number | string; // this is union
+
+// function printId(id: ID){
+//   if(typeof id === 'string'){
+//     console.log(id.toUpperCase());
+//   }else{
+//     console.log(id)
+//   }
+// }
+
+// printId('2')
+
+// Example 2: 
+
+// function getFirstThree(x: string | number[]){
+//   return x.slice(0,3);
+// }
+
+// console.log(getFirstThree('Hello'))
 
 
+// Generics
 
+// function logString(arg: string){
+//   console.log(arg);
+//   return arg;
+// }
 
+// function logNumber(arg: number){
+//   console.log(arg)
+//   return arg
+// }
+
+// function logArray(arg: any[]){
+//   console.log(arg)
+//   return arg
+// }
+
+// function logAnything(arg: any){
+//   console.log(arg)
+//   return arg
+// }
+
+// logString('Logged In');
+// logNumber(123)
+// logArray([2,'Hello',true,3])
 
